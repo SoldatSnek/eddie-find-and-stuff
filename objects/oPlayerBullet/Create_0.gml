@@ -3,7 +3,7 @@
 
 
 velocity = 6; 
-
+/*
 omniDirection = oPlayer.omniDirection
 
 if omniDirection == 1
@@ -35,6 +35,15 @@ xDirection = 0;
 yDirection = -1; 
 image_angle = 270
 }
+*/
+
+
+
+image_angle = point_direction(x,y,mouse_x, mouse_y); 
+//yDirection = image_angle; 
+
+
+
 
 xVector = xDirection * velocity; 
 yVector = yDirection * velocity; 
