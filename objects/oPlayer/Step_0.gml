@@ -34,11 +34,6 @@ if keyboard_check_pressed(vk_down)
 omniDirection = 4; 	
 }
 
-if keyboard_check_pressed(vk_shift)
-{
-instance_create_layer(x, y, "instances_1", oPlayerBullet); 
-}
-
 
 
 if keyboard_check_pressed(ord("o"))

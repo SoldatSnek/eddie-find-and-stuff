@@ -3,5 +3,7 @@
 
 
 
-EnemyHurt(); 
-instance_destroy(); 
+
+firingdelay = 0; 
+recoil = 0; 
+
