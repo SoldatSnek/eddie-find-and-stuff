@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oMGHE",
   "spriteId": {
-    "name": "sMGHE",
-    "path": "sprites/sMGHE/sMGHE.yy",
+    "name": "sMGAP",
+    "path": "sprites/sMGAP/sMGAP.yy",
   },
   "solid": false,
   "visible": true,

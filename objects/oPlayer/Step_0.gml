@@ -95,13 +95,13 @@ global.hsp = global.xDirection*global.walksp;
 var playerAngle;
 playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
 
-	if  (playerAngle > 226) and (playerAngle < 315) and (vk_control) {
+/*if  (playerAngle > 226) and (playerAngle < 315) and (vk_control) {
 sprite_index = sPlayerCrouchUp
 }
 else {
-	if  (playerAngle > 226) and (playerAngle < 315){
+if  (playerAngle > 226) and (playerAngle < 315){
 sprite_index = sPlayerCrouchUp
-	}
+}
 }
 
 if (playerAngle > 135) and (playerAngle < 225){
@@ -116,7 +116,7 @@ sprite_index = sPlayerLeft;
 if (playerAngle > 316) and (playerAngle < 0){
 sprite_index = sPlayerLeft;
 }
-
+*/ 
 
 
 

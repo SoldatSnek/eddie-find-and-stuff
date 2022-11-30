@@ -5,8 +5,8 @@
 
 velocity = 10; 
 
-xDirection = ((oPlayer.x - x) + random(30)) or ((oPlayer.x - x) - random(30)); 
-yDirection = ((oPlayer.y - y) + random(30)) or ((oPlayer.y - y) - random(30)); 
+xDirection = (oPlayer.x - x); 
+yDirection = (oPlayer.y - y); 
 
 distance = sqrt(sqr(xDirection) + sqr(yDirection)); 
 xVector = (xDirection/distance)*velocity; 

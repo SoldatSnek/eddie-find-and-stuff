@@ -3,4 +3,4 @@
 
 
 
-//instance_destroy(oMGHE);
+//instance_destroy(oMGBullet);
