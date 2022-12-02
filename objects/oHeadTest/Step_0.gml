@@ -1,15 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+/// @description Insert description here
+// You can write your code in this editor
+
 //this is runs everry frame when player exidsts 
 
 
 
 
-right = keyboard_check(ord("D")); 
-left = keyboard_check(ord("A"));
-key_jump = keyboard_check_pressed(vk_space);
-attackOne = keyboard_check_pressed(vk_control); 
+global.right = keyboard_check(ord("D")); 
+global.left = keyboard_check(ord("A"));
+global.key_jump = keyboard_check_pressed(vk_space);
+global.attackOne = keyboard_check_pressed(vk_control); 
 
 
 
@@ -52,30 +56,20 @@ instance_create_layer(x, y, "instances_1", oSudoku);
 
 
 
-var move = right - left ; 
+var move = global.right - global.left ; 
 
-hsp = oPlayer.hsp; 
+global.hsp = move * global.walksp; 
 
-if (place_meeting(x + hsp, y, oWallParent))
+if (place_meeting(x + global.hsp, y, oWallParent))
 {
-	while (!place_meeting (x + sign (hsp), y, oWall2)) 
+	while (!place_meeting (x + sign (global.hsp), y, oWall2)) 
 	{
-		x = x + sign(hsp); 
+		x = x + sign(global.hsp); 
 	}
-	hsp = 0; 
+	global.hsp = 0; 
 }
 
-
-if (place_meeting(x + hsp, y, oPlayer))
-{
-	while (!place_meeting (x + sign (hsp), y, oPlayer)) 
-	{
-		x = x + sign(hsp); 
-	}
-	hsp = oPlayer.hsp; 
-}
-
-x = x + hsp; 
+x = x + global.hsp; 
 
 if keyboard_check_released(vk_control)
 {
@@ -84,14 +78,20 @@ sprite_index = sPlayer;
 
 }
 
+global.vsp = global.vsp + global.grv; 
+
+
+if (place_meeting(x, y + 1, oWallParent)) && (global.key_jump)
+{
+global.vsp = -10; 
+
+
+}
 
 
 
 
-
-
-
-hsp = oPlayer.hsp;
+global.hsp = global.xDirection*global.walksp;
 
 
 
@@ -136,50 +136,38 @@ sprite_index = sPlayerLeft;
 
 
 
-if (place_meeting(x, y + vsp , oWallParent))	
+if (place_meeting(x, y+global.vsp , oWallParent))	
 	
 {
-	while	(!place_meeting(x, y+sign(vsp) , oWall2))	
+	while	(!place_meeting(x, y+sign(global.vsp) , oWall2))	
 	{
-		y = y + sign (vsp)
+		y = y + sign (global.vsp)
 	}
-	vsp = oPlayer.vsp;
+	global.vsp = 0;
 }
-y = y + vsp; 
+y = y + global.vsp; 
 
-if (place_meeting(x, y+vsp , oPlayer))	
+	
+	
+	if (place_meeting(x, y+global.vsp , oWallBackrooms))	
 	
 {
-	while	(!place_meeting(x, y+sign(vsp) , oPlayer))	
+	while	(!place_meeting(x, y+sign(global.vsp) , oBackroomsCarpet2))	
 	{
-		y = y + sign (vsp)
+		y = y + sign (global.vsp)
 	}
-	vsp = oPlayer.vsp;
-}
-y = y + vsp; 
-
-
-	
-	
-	if (place_meeting(x, y+vsp , oWallBackrooms))	
-	
-{
-	while	(!place_meeting(x, y+sign(vsp) , oBackroomsCarpet2))	
-	{
-		y = y + sign (vsp)
-	}
-	vsp = oPlayer.vsp;
+	global.vsp = 0;
 }
 
 
 	
-	if (place_meeting(x + hsp, y, oWallBackrooms))
+	if (place_meeting(x + global.hsp, y, oWallBackrooms))
 {
-	while (!place_meeting (x + sign (hsp), y, oBackroomsCarpet2)) 
+	while (!place_meeting (x + sign (global.hsp), y, oBackroomsCarpet2)) 
 	{
-		x = x + sign(hsp); 
+		x = x + sign(global.hsp); 
 	}
-	hsp = oPlayer.hsp; 
+	global.hsp = 0; 
 }
 
 
@@ -236,8 +224,19 @@ PlayerDeath()
 	
 	
 	
-
-if attackOne = true
+	if global.isInvincible
+	{
+	global.invTimer -= 1/room_speed
+	if global.invTimer <= 0 
+		{
+			global.isInvincible = false; 
+			global.invTimer = 3; 
+		}
+	
+	}
+	
+	
+if global.attackOne = true
 {
 sprite_index = sDeath; 
 }
