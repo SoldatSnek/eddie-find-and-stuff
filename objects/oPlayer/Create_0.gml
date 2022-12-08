@@ -15,13 +15,16 @@ global.targetRoom = -1;
 global.targetX = -1; 
 global.targetY = -1; 
 
-
+oHeadTest.walksp=4;
+oHeadTest.xDirection = 0;
+oHeadTest.vsp=global.grv;
+oHeadTest.hsp = oHeadTest.walksp*oHeadTest.xDirection;
 
 omniDirection = 1; 
 
 
 
-global.HP = 100; 
+global.HP = 1000; 
 
 global.HeavyCalAmmo = 0 ; 
 
