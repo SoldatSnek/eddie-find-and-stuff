@@ -81,7 +81,7 @@ sprite_index = sPlayer;
 global.vsp = global.vsp + global.grv; 
 */
 
-if (place_meeting(x, y + 1, oWallParent)) && (global.key_jump)
+if (place_meeting(x, y, oWallParent)) && (global.key_jump)
 {
 global.vsp = -10; 
 
@@ -332,12 +332,7 @@ if (place_meeting(x + hsp, y, oWallParent))
 
 x = x + hsp; 
 
-if keyboard_check_released(vk_control)
-{
-y = y + 5; 
 
-
-}
 
 vsp = vsp + global.grv; 
 
@@ -406,11 +401,11 @@ x = x + hsp;
 	
 
 
-if (place_meeting(x + vsp, y, oPlayer))
+if (place_meeting(x, y + vsp, oPlayer))
 {
-	while (!place_meeting (x + sign (vsp), y, oPlayer)) 
+	while (!place_meeting (x , y+ sign (vsp), oPlayer)) 
 	{
-		x = x + sign(vsp); 
+		y = y + sign(vsp); 
 	}
 	vsp = 0; 
 }
@@ -420,7 +415,7 @@ y = y - vsp;
 
 
 
-
+/*
 if (place_meeting(x, y+vsp , oWallParent))	
 	
 {
@@ -431,7 +426,7 @@ if (place_meeting(x, y+vsp , oWallParent))
 	vsp = 0;
 }
 y = y + vsp; 
-
+*/
 	
 	
 	if (place_meeting(x, y+vsp , oWallBackrooms))	
