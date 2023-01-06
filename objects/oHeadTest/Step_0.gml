@@ -249,10 +249,7 @@ PlayerDeath()
 	}
 	
 	
-if global.attackOne = true
-{
-sprite_index = sDeath; 
-}
+
 	
 	
 	
@@ -518,9 +515,4 @@ PlayerDeath()
 	
 	}
 	
-	
-if attackOne = true
-{
-sprite_index = sDeath; 
-}
 	

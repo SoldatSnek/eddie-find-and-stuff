@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 
-
+if TurretHP >= 0 
+{
 pTimer -= 1/room_speed; 
 if (pTimer <= 0) 
 {
@@ -27,3 +28,13 @@ yDirection = (oPlayer.y - y);
 distance = sqrt(sqr(xDirection) + sqr(yDirection)); 
 
 image_angle = darctan(-yDirection/xDirection); 
+}
+
+if place_meeting(x, y, oTalonBullet)
+{
+	TurretHP = TurretHP - 1; 
+}
+if TurretHP < 0 
+{
+	sprite_index = sTrretDestroyed; 
+}
