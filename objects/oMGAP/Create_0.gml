@@ -3,10 +3,10 @@
 
 
 
-velocity = 10; 
+velocity = 20; 
 
 xDirection = (oPlayer.x - x); 
-yDirection = (oPlayer.y - y); 
+yDirection = (oPlayer.y - y - (irandom_range(0, 160))); 
 
 distance = sqrt(sqr(xDirection) + sqr(yDirection)); 
 xVector = (xDirection/distance)*velocity; 
