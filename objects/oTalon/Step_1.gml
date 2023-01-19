@@ -10,9 +10,9 @@ image_angle = point_direction (x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1; 
 recoil = max(0, recoil - 1); 
 
-if (keyboard_check_pressed(vk_shift)) && (firingdelay < 0) 
+if (mouse_check_button(mb_left)) && (firingdelay < 0) 
 {
-	recoil = 4;
+	recoil = 2;
 	firingdelay = 5;
 with (instance_create_layer(x, y, "Bullets", oTalonBullet))
 	{
