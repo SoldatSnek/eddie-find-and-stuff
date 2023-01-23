@@ -51,7 +51,7 @@ instance_create_layer(x, y, "instances_1", oSudoku);
 
 if keyboard_check_pressed(vk_alt)
 {
-instance_create_layer(oPlayer.x, oPlayer.y, "instances_1", oGrenade); 
+instance_create_layer(oPlayer.x, oPlayer.y - 163, "instances_1", oGrenade); 
 }
 
 

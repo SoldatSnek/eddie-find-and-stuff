@@ -36,5 +36,14 @@ if place_meeting(x, y, oTalonBullet)
 }
 if TurretHP < 0 
 {
-	sprite_index = sTrretDestroyed; 
+	sprite_index = sInsurgent1CrouchingDead; 
+}
+
+if place_meeting(x, y, oShrapnel)
+{
+	TurretHP = TurretHP - 1; 
+}
+if TurretHP < 0 
+{
+	sprite_index = sInsurgent1CrouchingDead; 
 }
