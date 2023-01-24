@@ -2,13 +2,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if global.TalonEquiped = 1 {
 x = oArmLeft.x + 5;
 y = oArmLeft.y; 
 
 image_angle = point_direction (x,y,mouse_x,mouse_y); 
 firingdelay = firingdelay - 1; 
 recoil = max(0, recoil - 1); 
+
 
 if (mouse_check_button(mb_left)) && (firingdelay < 0) 
 {
@@ -34,4 +35,6 @@ if (image_angle > 90) && (image_angle < 270)
 else
 {
 	image_yscale = 1; 	
+}
+
 }

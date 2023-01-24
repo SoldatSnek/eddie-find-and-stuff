@@ -61,9 +61,6 @@ instance_create_layer(oPlayer.x, oPlayer.y - 163, "instances_1", oGrenade);
 
 
 
-var move = global.right - global.left ; 
-
-global.hsp = move * global.walksp; 
 
 if (place_meeting(x + global.hsp, y, oWallParent))
 {
@@ -74,14 +71,14 @@ if (place_meeting(x + global.hsp, y, oWallParent))
 	global.hsp = 0; 
 }
 
+
+
+
+var move = global.right - global.left ; 
+
+global.hsp = move * global.walksp; 
 x = x + global.hsp; 
 
-if keyboard_check_released(vk_control)
-{
-y = y + 5; 
-sprite_index = sPlayer; 
-
-}
 
 global.vsp = global.vsp + global.grv; 
 

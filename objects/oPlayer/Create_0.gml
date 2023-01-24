@@ -7,6 +7,7 @@ global.walksp = 4;
 global.xDirection = 0;
 global.hsp = global.walksp*global.xDirection;
 
+
 global.grv= 0.3;
 global.jumpforce = -7;
 global.vsp = global.grv; 
@@ -22,6 +23,8 @@ oHeadTest.hsp = oHeadTest.walksp*oHeadTest.xDirection;
 
 omniDirection = 1; 
 
+
+global.TalonEquiped = 1; 
 
 
 global.HP = 1000; 

@@ -12,7 +12,7 @@ if (charCurrent < len)
 	else
     {
     textCurrent += 1;
-    if (textCurrent = 4)
+    if (textCurrent = 8)
         {
         instance_destroy(oDialogue);
         }

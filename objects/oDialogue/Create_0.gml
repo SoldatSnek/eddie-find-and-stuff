@@ -3,11 +3,15 @@
 
 
 
-text[0] = " Hallo"; 
-text[1] = "This is a long string, etc, etc"; 
-text[2] = "eggs"; 
-text[3] = "potatos"; 
-text[4] = "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"; 
+text[0] = "What ju, just happpened"; 
+text[1] = "Looks like the Helo went down"; 
+text[2] = "I guess that was real then"; 
+text[3] = "Where are the others?"; 
+text[4] = "They arent here, and 2 of the Stretches are missing, and I dont see any bullet holes around here"; 
+text[5] = "I can hear the insurgent coming, i gotta go";
+text[6] = "theres still some ammo here, and my rifle";
+text[7] = "*ratatatta*";
+text[8] = "Gotta Run";
 
 
 textCurrent = 0;
