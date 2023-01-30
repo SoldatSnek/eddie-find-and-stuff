@@ -60,6 +60,29 @@ instance_create_layer(oPlayer.x, oPlayer.y - 163, "instances_1", oGrenade);
 
 
 
+if keyboard_check_pressed(ord("1"))
+{
+global.WeaponEquipped = 1;
+
+instance_create_layer(x, y, "Weapon", oTalon); 
+}
+
+if keyboard_check_pressed(ord("2"))
+{
+global.WeaponEquipped = 2;
+
+instance_create_layer(x, y, "Weapon", oBlackBear); 
+}
+
+
+
+
+
+
+
+
+
+
 
 
 if (place_meeting(x + global.hsp, y, oWallParent))
@@ -101,28 +124,6 @@ global.hsp = global.xDirection*global.walksp;
 var playerAngle;
 playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
 
-/*if  (playerAngle > 226) and (playerAngle < 315) and (vk_control) {
-sprite_index = sPlayerCrouchUp
-}
-else {
-if  (playerAngle > 226) and (playerAngle < 315){
-sprite_index = sPlayerCrouchUp
-}
-}
-
-if (playerAngle > 135) and (playerAngle < 225){
-sprite_index = sPlayerRight;
-}
-if  (playerAngle > 46) and (playerAngle < 136) {
-sprite_index = sPlayerDown;
-}
-if (playerAngle > 0) and (playerAngle < 45){
-sprite_index = sPlayerLeft;
-}
-if (playerAngle > 316) and (playerAngle < 0){
-sprite_index = sPlayerLeft;
-}
-*/ 
 
 
 

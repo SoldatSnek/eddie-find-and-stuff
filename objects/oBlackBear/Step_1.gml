@@ -2,7 +2,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.WeaponEquipped = 1 {
+if global.WeaponEquipped = 2 {
 x = oArmLeft.x + 5;
 y = oArmLeft.y; 
 
@@ -14,8 +14,8 @@ recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left)) && (firingdelay < 0) 
 {
 	recoil = 2;
-	firingdelay = 5;
-with (instance_create_layer(x, y, "Bullets", oTalonBullet))
+	firingdelay = 50;
+with (instance_create_layer(x, y, "Bullets", oPAW))
 	{
 	speed = 25; 	
 	direction = other.image_angle + random_range (-3, 3); 
@@ -41,5 +41,5 @@ else
 
 else
 {
-	instance_destroy(oTalon)
+	instance_destroy(oBlackBear)
 }

@@ -24,7 +24,7 @@ oHeadTest.hsp = oHeadTest.walksp*oHeadTest.xDirection;
 omniDirection = 1; 
 
 
-global.TalonEquiped = 1; 
+global.WeaponEquipped = 1; 
 
 
 global.HP = 1000; 
