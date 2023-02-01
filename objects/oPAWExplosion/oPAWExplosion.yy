@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTechnical",
+  "name": "oPAWExplosion",
   "spriteId": {
-    "name": "sTechnicalDead",
-    "path": "sprites/sTechnicalDead/sTechnicalDead.yy",
+    "name": "sPAWExplosion",
+    "path": "sprites/sPAWExplosion/sPAWExplosion.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

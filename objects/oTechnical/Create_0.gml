@@ -1,3 +1,3 @@
 pTimer = 3.1; 
 
-TurretHP = 10; 
+TurretHP = 500; 

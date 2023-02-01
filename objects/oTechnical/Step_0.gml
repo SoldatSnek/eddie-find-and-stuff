@@ -18,12 +18,7 @@ if (pTimer <= 0)
 ;
 
 
-xDirection = (oPlayer.x - x); 
-yDirection = (oPlayer.y - y); 
 
-distance = sqrt(sqr(xDirection) + sqr(yDirection)); 
-
-image_angle = darctan(-yDirection/xDirection); 
 }
 
 if place_meeting(x, y, oTalonBullet)
@@ -32,7 +27,7 @@ if place_meeting(x, y, oTalonBullet)
 }
 if TurretHP < 0 
 {
-	sprite_index = sInsurgent1CrouchingDead; 
+	sprite_index = sTechnicalDead; 
 }
 
 if place_meeting(x, y, oShrapnel)
@@ -41,5 +36,5 @@ if place_meeting(x, y, oShrapnel)
 }
 if TurretHP < 0 
 {
-	sprite_index = sInsurgent1CrouchingDead; 
+	sprite_index = sTechnicalDead; 
 }
