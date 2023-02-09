@@ -11,15 +11,19 @@ firingdelay = firingdelay - 1;
 recoil = max(0, recoil - 1); 
 
 
-if (mouse_check_button(mb_left)) && (firingdelay < 0) 
+if (mouse_check_button(mb_left)) && (firingdelay < 0)
 {
+	if ammo > 0 
+	{
 	recoil = 2;
 	firingdelay = 5;
+	ammo = ammo -1; 
 with (instance_create_layer(x, y, "Bullets", oTalonBullet))
 	{
-	speed = 25; 	
+	oTalonBullet.spd = 25; 	
 	direction = other.image_angle + random_range (-3, 3); 
 	image_angle = direction; 
+	}
 	}
 }
 
@@ -42,4 +46,11 @@ else
 else
 {
 	instance_destroy(oTalon)
+}
+
+
+
+if keyboard_check(vk_backspace)
+{
+ammo = ammo + 30; 
 }

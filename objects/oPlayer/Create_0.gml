@@ -25,7 +25,7 @@ omniDirection = 1;
 
 
 global.WeaponEquipped = 1; 
-
+global.reloadspeed = 3; 
 
 global.HP = 1000; 
 

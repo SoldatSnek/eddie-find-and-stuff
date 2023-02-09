@@ -6,4 +6,7 @@
 
 firingdelay = 0; 
 recoil = 0; 
+ammo = 30; 
 
+reloadspeed = 3; 
+spd = 0; 

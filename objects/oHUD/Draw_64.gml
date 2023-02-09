@@ -33,5 +33,4 @@ draw_sprite_stretched(sHealthbar, 0, 600, 30, (global.HP/100) * sprite_get_width
 
 
 
-cursor_sprite = sCursor;
-window_set_cursor(cr_none);
+cursor_sprite = sCursor; 

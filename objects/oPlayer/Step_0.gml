@@ -9,7 +9,7 @@
 global.right = keyboard_check(ord("D")); 
 global.left = keyboard_check(ord("A"));
 global.key_jump = keyboard_check_pressed(vk_space);
-global.attackOne = keyboard_check_pressed(vk_control); 
+global.crouch = keyboard_check_pressed(vk_control); 
 
 
 
@@ -239,8 +239,8 @@ PlayerDeath()
 	}
 	
 	
-if global.attackOne = true
+if global.crouch = true
 {
-sprite_index = sDeath; 
+
 }
 	
