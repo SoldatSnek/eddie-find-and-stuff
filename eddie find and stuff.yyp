@@ -136,6 +136,7 @@
     {"id":{"name":"oCatalina","path":"objects/oCatalina/oCatalina.yy",},"order":21,},
     {"id":{"name":"sSudoku","path":"sprites/sSudoku/sSudoku.yy",},"order":25,},
     {"id":{"name":"oArmRight","path":"objects/oArmRight/oArmRight.yy",},"order":42,},
+    {"id":{"name":"sSoldatWalking","path":"sprites/sSoldatWalking/sSoldatWalking.yy",},"order":0,},
     {"id":{"name":"oWall2","path":"objects/oWall2/oWall2.yy",},"order":5,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":45,},
     {"id":{"name":"sBackroomsCarpet","path":"sprites/sBackroomsCarpet/sBackroomsCarpet.yy",},"order":19,},
