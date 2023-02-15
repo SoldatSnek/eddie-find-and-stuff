@@ -79,6 +79,12 @@ instance_create_layer(x, y, "Weapon", oBlackBear);
 
 
 
+if global.hsp > 0
+{
+instance_change(oSoldatWalking, true); 
+}
+
+
 
 
 

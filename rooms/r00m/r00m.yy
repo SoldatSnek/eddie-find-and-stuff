@@ -140,6 +140,7 @@
     {"name":"inst_523EE73B","path":"rooms/r00m/r00m.yy",},
     {"name":"inst_4BD9C4FC","path":"rooms/r00m/r00m.yy",},
     {"name":"inst_5E37FB8","path":"rooms/r00m/r00m.yy",},
+    {"name":"inst_4B1A2617","path":"rooms/r00m/r00m.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -178,6 +179,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2AB5678F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall2","path":"objects/oWall2/oWall2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":1344.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AAAF06E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall2","path":"objects/oWall2/oWall2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":1344.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_523EE73B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInsurjent1Raptor","path":"objects/oInsurjent1Raptor/oInsurjent1Raptor.yy",},"properties":[],"rotation":0.06255726,"scaleX":2.0,"scaleY":1.5,"x":1152.0,"y":1248.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B1A2617","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCrossHair","path":"objects/oCrossHair/oCrossHair.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":1216.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bullets","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B4BC87E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":288.0,},
@@ -307,7 +309,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":1240,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"vborder":720,"visible":true,"vspeed":-1,"wport":1240,"wview":1240,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":1240,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"oCrossHair","path":"objects/oCrossHair/oCrossHair.yy",},"vborder":720,"visible":true,"vspeed":-1,"wport":1240,"wview":1240,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
