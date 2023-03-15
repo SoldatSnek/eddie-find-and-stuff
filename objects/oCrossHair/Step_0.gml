@@ -1,3 +1,4 @@
-
-x = x - lengthdir_x(mouse_x,image_angle); 
-y = y - lengthdir_y(mouse_y,image_angle); 
+point_direction(x, y, mouse_x, mouse_y);
+window_set_cursor(cr_none); 
+x = mouse_x; 
+y = mouse_y; 

@@ -74,18 +74,11 @@ global.WeaponEquipped = 2;
 instance_create_layer(x, y, "Weapon", oBlackBear); 
 }
 
-if keyboard_check_pressed(ord("3"))
-{
-global.WeaponEquipped = 3;
-
-instance_create_layer(x, y, "Weapon", oHailStorm); 
-}
 
 
 
 
 
-global.right = keyboard_check(ord("D")); 
 
 
 

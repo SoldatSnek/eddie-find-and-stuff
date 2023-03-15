@@ -39,8 +39,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sSoldatWalking",
+    "path": "sprites/sSoldatWalking/sSoldatWalking.yy",
   },
   "spriteMaskId": null,
   "visible": true,

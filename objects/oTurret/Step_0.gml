@@ -48,3 +48,14 @@ if TurretHP < 0
 {
 	sprite_index = sTrretDestroyed; 
 }
+
+
+
+if place_meeting(x, y, oHailStormBullet)
+{
+	TurretHP = TurretHP - 1.; 
+}
+if TurretHP < 0 
+{
+	sprite_index = sTrretDestroyed; 
+}
