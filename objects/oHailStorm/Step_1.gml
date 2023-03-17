@@ -3,7 +3,7 @@
 // You can write your code in this editor
 
 if global.WeaponEquipped = 3 {
-x = oArmLeft.x + 5;
+x = oArmLeft.x;
 y = oArmLeft.y; 
 
 image_angle = point_direction (x,y,mouse_x,mouse_y); 
@@ -18,7 +18,7 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 	recoil = 2;
 	firingdelay = 2;
 	ammo = ammo -1; 
-with (instance_create_layer(x + 50 , y , "Bullets", oHailStormBullet))
+with (instance_create_layer(x , y , "Bullets", oHailStormBullet))
 	{
 	oHailStormBullet.spd = 35; 	
 	direction = other.image_angle + random_range (-3, 3); 
