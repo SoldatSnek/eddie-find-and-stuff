@@ -1,4 +1,4 @@
-if place_meeting (x, y, oWallParent)
+if place_meeting (x, y, oSolid)
 {
 	instance_create_layer(x,y,"bullets", oPAWExplosion)
 	instance_create_layer(x,y,"bullets", oPAWCharge)
@@ -16,6 +16,16 @@ repeat (124)
 }
 instance_destroy(self); 
 }
+
+if (image_angle > 90) && (image_angle < 270)
+{
+		image_yscale = -1; 
+}
+else
+{
+	image_yscale = 1; 	
+}
+
 
 
 

@@ -9,15 +9,16 @@ y = oArmLeft.y;
 image_angle = point_direction (x,y,mouse_x,mouse_y); 
 firingdelay = firingdelay - 1; 
 recoil = max(0, recoil - 1); 
-
+sprite_set_speed(sprite_index, 0, spritespeed_framespergameframe);  
 
 if (mouse_check_button(mb_left)) && (firingdelay < 0)
 {
 	if ammo > 0 
 	{
 	recoil = 2;
-	firingdelay = 2;
+	firingdelay = 1;
 	ammo = ammo -1; 
+	sprite_set_speed(sprite_index,60 , spritespeed_framespersecond)
 with (instance_create_layer(x , y , "Bullets", oHailStormBullet))
 	{
 	oHailStormBullet.spd = 35; 	
