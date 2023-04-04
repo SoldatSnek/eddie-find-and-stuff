@@ -1,13 +1,13 @@
 
 
 
-if (place_meeting(x, y, oWallParent)) && (global.key_jump)
+/*if (place_meeting(x, y, oWallParent)) && (global.key_jump)
 {
 global.vsp = -10; 
 
 
 }
-
+*/
 
 
 
@@ -80,33 +80,7 @@ if (place_meeting(x, y+global.vsp , oWallParent))
 }
 y = y + global.vsp; 
 
-	
-	
-	if (place_meeting(x, y+global.vsp , oWallBackrooms))	
-	
-{
-	while	(!place_meeting(x, y+sign(global.vsp) , oBackroomsCarpet2))	
-	{
-		y = y + sign (global.vsp)
-	}
-	global.vsp = 0;
-}
 
-
-	
-	if (place_meeting(x + global.hsp, y, oWallBackrooms))
-{
-	while (!place_meeting (x + sign (global.hsp), y, oBackroomsCarpet2)) 
-	{
-		x = x + sign(global.hsp); 
-	}
-	global.hsp = 0; 
-}
-
-
-	
-	
-	
 	
 	
 	

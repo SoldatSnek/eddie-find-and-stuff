@@ -27,7 +27,6 @@
     {"name":"oWater","order":11,"path":"objects/oWater/oWater.yy",},
     {"name":"oEnemy","order":13,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"sBackPack","order":72,"path":"sprites/sBackPack/sBackPack.yy",},
-    {"name":"oSoldatWalking","order":61,"path":"objects/oSoldatWalking/oSoldatWalking.yy",},
     {"name":"sHeadUp","order":35,"path":"sprites/sHeadUp/sHeadUp.yy",},
     {"name":"oArmLeft","order":41,"path":"objects/oArmLeft/oArmLeft.yy",},
     {"name":"sCursor","order":22,"path":"sprites/sCursor/sCursor.yy",},

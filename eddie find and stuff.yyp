@@ -44,7 +44,6 @@
     {"id":{"name":"oWater","path":"objects/oWater/oWater.yy",},"order":11,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":13,},
     {"id":{"name":"sBackPack","path":"sprites/sBackPack/sBackPack.yy",},"order":0,},
-    {"id":{"name":"oSoldatWalking","path":"objects/oSoldatWalking/oSoldatWalking.yy",},"order":0,},
     {"id":{"name":"sHeadUp","path":"sprites/sHeadUp/sHeadUp.yy",},"order":35,},
     {"id":{"name":"oArmLeft","path":"objects/oArmLeft/oArmLeft.yy",},"order":41,},
     {"id":{"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},"order":22,},

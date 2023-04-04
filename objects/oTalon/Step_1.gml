@@ -20,7 +20,7 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 	ammo = ammo -1; 
 with (instance_create_layer(x, y, "Bullets", oTalonBullet))
 	{
-	oTalonBullet.spd = 25; 	
+	oTalonBullet.spd = 75; 	
 	direction = other.image_angle + random_range (-3, 3); 
 	image_angle = direction; 
 	}
@@ -52,5 +52,5 @@ else
 
 if keyboard_check(vk_backspace)
 {
-ammo = ammo + 30; 
+ammo = 30; 
 }
