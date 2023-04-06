@@ -14,27 +14,6 @@ global.crouch = keyboard_check_pressed(vk_control);
 
 
 
-if keyboard_check_pressed(vk_right)
-{
-omniDirection = 1; 	
-}
-
-if keyboard_check_pressed(vk_left)
-{
-omniDirection = 2; 	
-}
-
-if keyboard_check_pressed(vk_up)
-{
-omniDirection = 3; 	
-}
-
-if keyboard_check_pressed(vk_down)
-{
-omniDirection = 4; 	
-}
-
-
 
 if keyboard_check_pressed(ord("o"))
 {
@@ -86,7 +65,6 @@ instance_create_layer(x, y, "Weapon", oHailStorm);
 
 
 global.right = keyboard_check(ord("D")); 
-
 
 
 
@@ -160,31 +138,25 @@ if (place_meeting(x, y+global.vsp , oWallParent))
 y = y + global.vsp; 
 
 	
+
+
 	
-	if (place_meeting(x, y+global.vsp , oWallBackrooms))	
 	
-{
-	while	(!place_meeting(x, y+sign(global.vsp) , oBackroomsCarpet2))	
+	
+	
+	if (global.hsp != 0)
 	{
-		y = y + sign (global.vsp)
+	sprite_set_speed(sprite_index, 10, spritespeed_framespersecond); 	
 	}
-	global.vsp = 0;
-}
-
-
-	
-	if (place_meeting(x + global.hsp, y, oWallBackrooms))
-{
-	while (!place_meeting (x + sign (global.hsp), y, oBackroomsCarpet2)) 
+	else 
 	{
-		x = x + sign(global.hsp); 
+	sprite_set_speed(sprite_index, 10, spritespeed_framespersecond); 
+	image_index = 1; 
 	}
-	global.hsp = 0; 
-}
-
 
 	
 	
+
 	
 	
 	
@@ -253,3 +225,29 @@ if global.crouch = true
 
 }
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if keyboard_check_pressed(ord("o"))
+{
+instance_create_layer(x, y, "instances_1", oSudoku); 
+}
+
+
+
+if keyboard_check_pressed(vk_up)
+{
+instance_create_layer(x, y, "instances_1", oSudoku); 
+}
+
+
+if keyboard_check_pressed(vk_alt)
+{
+instance_create_layer(oPlayer.x, oPlayer.y - 163, "instances_1", oGrenade); 
+}

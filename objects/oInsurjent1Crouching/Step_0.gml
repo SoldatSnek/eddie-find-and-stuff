@@ -4,6 +4,8 @@
 
 if TurretHP >= 0 
 {
+	
+	
 pTimer -= 1/room_speed; 
 if (pTimer <= 0) 
 {
