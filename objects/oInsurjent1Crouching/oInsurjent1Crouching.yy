@@ -30,7 +30,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "sInsurjentCrouching",
     "path": "sprites/sInsurjentCrouching/sInsurjentCrouching.yy",

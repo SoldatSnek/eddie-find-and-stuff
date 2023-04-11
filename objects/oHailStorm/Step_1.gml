@@ -3,8 +3,8 @@
 // You can write your code in this editor
 
 if global.WeaponEquipped = 3 {
-x = oArmLeft.x;
-y = oArmLeft.y; 
+x = oPlayer.x - 10;
+y = oPlayer.y - 150; 
 
 image_angle = point_direction (x,y,mouse_x,mouse_y); 
 firingdelay = firingdelay - 1; 
