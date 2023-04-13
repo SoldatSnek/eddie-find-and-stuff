@@ -1,7 +1,7 @@
 if place_meeting (x, y, oSolid)
 {
-	instance_create_layer(x,y,"bullets", oPAWExplosion)
-	instance_create_layer(x,y,"bullets", oPAWCharge)
+	instance_create_layer(x,y,"bullets", oScytheExplosion)
+	instance_create_layer(x,y,"bullets", oScytheCharge)
 	repeat (360)
 {
 with (instance_create_layer(x, y, "Bullets", oShrapnel))
@@ -32,3 +32,16 @@ else
 x = x - lengthdir_x(recoil,image_angle); 
 y = y - lengthdir_y(recoil,image_angle); 
 
+
+
+if mouse_y <= y 
+{
+	y = y - 5; 
+	
+}
+
+
+else 
+{
+y = y + 5; 	
+}

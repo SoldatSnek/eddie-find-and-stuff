@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPAW",
+  "name": "oScytheLaserGuided",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPAW",
-    "path": "sprites/sPAW/sPAW.yy",
+    "name": "sScytheLaserGuided",
+    "path": "sprites/sScytheLaserGuided/sScytheLaserGuided.yy",
   },
   "spriteMaskId": null,
   "visible": true,

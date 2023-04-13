@@ -6,4 +6,4 @@
 
 firingdelay = 0; 
 recoil = 0; 
-
+Firemode = 1; 

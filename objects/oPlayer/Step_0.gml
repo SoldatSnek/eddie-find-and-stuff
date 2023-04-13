@@ -50,7 +50,7 @@ if keyboard_check_pressed(ord("2"))
 {
 global.WeaponEquipped = 2;
 
-instance_create_layer(x, y, "Weapon", oBlackBear); 
+instance_create_layer(x, y, "Weapon", oScythe); 
 }
 
 if keyboard_check_pressed(ord("3"))
