@@ -30,7 +30,8 @@ else
 
 
 x = x - lengthdir_x(recoil,image_angle); 
-y = y - lengthdir_y(recoil,image_angle); 
+y = mouse_y; 
+//y = y - lengthdir_y(recoil,image_angle); 
 
 
 

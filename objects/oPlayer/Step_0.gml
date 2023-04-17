@@ -60,6 +60,12 @@ global.WeaponEquipped = 3;
 instance_create_layer(x, y, "Weapon", oHailStorm); 
 }
 
+if keyboard_check_pressed(ord("0"))
+{
+global.WeaponEquipped = 0;
+
+instance_create_layer(x, y, "Weapon", oKnife); 
+}
 
 
 
@@ -95,7 +101,7 @@ global.vsp = global.vsp + global.grv;
 
 if (place_meeting(x, y + 1, oWallParent)) && (global.key_jump)
 {
-global.vsp = -10; 
+global.vsp = -7.5; 
 
 
 }

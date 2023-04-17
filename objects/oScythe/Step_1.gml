@@ -56,6 +56,13 @@ if global.WeaponEquipped = 2
 		image_yscale = 1; 	
 		}
 
+
+
+
+
+
+
+
 	//Where firemode 2 code begins 
 	if Firemode = 2
 	{
@@ -68,7 +75,7 @@ if global.WeaponEquipped = 2
 			firingdelay = 50;
 		with (instance_create_layer(x, y - 50, "Bullets", oScytheLaserGuided))
 			{
-			speed = 5; 	
+			speed = 15; 	
 			direction = other.image_angle; 
 			image_angle = direction; 
 			}
