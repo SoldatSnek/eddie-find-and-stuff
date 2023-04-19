@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sKnife",
-    "path": "sprites/sKnife/sKnife.yy",
+    "name": "sHoldingKnife",
+    "path": "sprites/sHoldingKnife/sHoldingKnife.yy",
   },
   "spriteMaskId": null,
   "visible": true,

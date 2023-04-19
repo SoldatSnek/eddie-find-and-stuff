@@ -37,7 +37,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "sSoldatWalking",
     "path": "sprites/sSoldatWalking/sSoldatWalking.yy",

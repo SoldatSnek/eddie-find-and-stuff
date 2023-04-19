@@ -175,6 +175,7 @@
     {"id":{"name":"oTalon","path":"objects/oTalon/oTalon.yy",},"order":26,},
     {"id":{"name":"oHeadTest","path":"objects/oHeadTest/oHeadTest.yy",},"order":35,},
     {"id":{"name":"PlayerState_Crouch","path":"scripts/PlayerState_Crouch/PlayerState_Crouch.yy",},"order":0,},
+    {"id":{"name":"sHoldingKnife","path":"sprites/sHoldingKnife/sHoldingKnife.yy",},"order":0,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":1,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":3,},
     {"id":{"name":"sPlayerWithNoHead","path":"sprites/sPlayerWithNoHead/sPlayerWithNoHead.yy",},"order":42,},
