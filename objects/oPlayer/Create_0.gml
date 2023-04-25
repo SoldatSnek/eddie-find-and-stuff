@@ -38,3 +38,19 @@ global.invTimer = 3;
 //oPlayer.hp works similar to global 
 
 
+
+
+
+state = PLAYERSTATE.FREE; 
+hitByAttack = ds_list_create();
+
+
+enum PLAYERSTATE
+{
+	FREE, 
+	ATTACK_SLASH,
+	ATTACK_STAB
+	
+	
+	
+}

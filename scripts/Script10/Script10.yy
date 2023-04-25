@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerState_Attack",
+  "name": "Script10",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

@@ -5,14 +5,14 @@
 
 
 
-
-global.right = keyboard_check(ord("D")); 
-global.left = keyboard_check(ord("A"));
-global.key_jump = keyboard_check_pressed(vk_space);
-global.crouch = keyboard_check_pressed(vk_control); 
-
-
-
+ switch (state)
+ {
+	 case PLAYERSTATE.FREE: PlayerState_Free(); break; 
+	 case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break; 
+	 case PLAYERSTATE.ATTACK_STAB: PlayerState_Attack_Stab(); break;
+	 
+	 
+ }
 
 
 if keyboard_check_pressed(ord("o"))
