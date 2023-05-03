@@ -1,8 +1,8 @@
-/*if (sprite_index!=sAttack)
+/*if (sprite_index!=sAttackStab)
 {
-sprite_index = sAttack; 	
+sprite_index = sAttackStab; 	
 	image_index = 0;
 	ds_list_clear(hitbyattack);
 }
 
-mask_index = sAttackHB; 
+mask_index = sAttackStabHB; 

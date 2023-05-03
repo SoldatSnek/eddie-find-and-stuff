@@ -72,7 +72,7 @@ instance_create_layer(x, y, "Weapon", oKnife);
 
 global.right = keyboard_check(ord("D")); 
 
-
+global.keyAttack = keyboard_check(ord("x"))
 
 
 

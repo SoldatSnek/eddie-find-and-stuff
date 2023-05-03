@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script10",
+  "name": "PlayerState_ThumbsUp",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

@@ -9,12 +9,12 @@ global.hsp = global.walksp*global.xDirection;
 
 
 global.grv= 0.3;
-global.jumpforce = -7;
+//global.jumpforce = -7;
 global.vsp = global.grv; 
 
-global.targetRoom = -1; 
-global.targetX = -1; 
-global.targetY = -1; 
+//global.targetRoom = -1; 
+//global.targetX = -1; 
+//global.targetY = -1; 
 
 oHeadTest.walksp = 4;
 oHeadTest.xDirection = 0;

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTechnicalDead",
-    "path": "sprites/sTechnicalDead/sTechnicalDead.yy",
+    "name": "sTruck",
+    "path": "sprites/sTruck/sTruck.yy",
   },
   "spriteMaskId": null,
   "visible": true,
