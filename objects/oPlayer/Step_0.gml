@@ -5,14 +5,14 @@
 
 
 
- switch (state)
- {
-	 case PLAYERSTATE.FREE: PlayerState_Free(); break; 
-	 case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break; 
-	 case PLAYERSTATE.ATTACK_STAB: PlayerState_Attack_Stab(); break;
+// switch (state)
+ //{
+//	 case PLAYERSTATE.FREE: PlayerState_Free(); break; 
+//	 case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break; 
+//	 case PLAYERSTATE.ATTACK_STAB: PlayerState_Attack_Stab(); break;
 	 
 	 
- }
+ //}
 
 
 if keyboard_check_pressed(ord("o"))
@@ -71,10 +71,9 @@ instance_create_layer(x, y, "Weapon", oKnife);
 
 
 global.right = keyboard_check(ord("D")); 
-
+global.left = keyboard_check(ord("A")); 
 global.keyAttack = keyboard_check(ord("x"))
-
-
+global.key_jump = keyboard_check(vk_space)
 
 
 
@@ -226,11 +225,11 @@ PlayerDeath()
 	}
 	
 	
-if global.crouch = true
+/*if global.crouch = true
 {
 
 }
-	
+*/	
 	
 	
 

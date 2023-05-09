@@ -50,7 +50,7 @@ else
 
 
 
-if keyboard_check(vk_backspace)
+if keyboard_check(ord("R"))
 {
 ammo = 30; 
 }
