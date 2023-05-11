@@ -17,6 +17,34 @@ repeat (124)
 instance_destroy(self); 
 }
 
+
+
+
+if place_meeting (x, y, oWallParent)
+{
+	instance_create_layer(x,y,"bullets", oScytheExplosion)
+	instance_create_layer(x,y,"bullets", oScytheCharge)
+	repeat (360)
+{
+with (instance_create_layer(x, y, "Bullets", oShrapnel))
+repeat (124)
+{
+	{
+	speed = 50; 	
+	direction = other.image_angle * random_range (-3, 3); 
+	image_angle = direction; 
+	}
+}
+}
+instance_destroy(self); 
+}
+
+
+
+
+
+
+
 if (image_angle > 90) && (image_angle < 270)
 {
 		image_yscale = -1; 

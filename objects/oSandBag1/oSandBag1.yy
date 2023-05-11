@@ -1,19 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oScytheLaserGuided",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oSandBag1","path":"objects/oSandBag1/oSandBag1.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "oSandBag1",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWallParent",
+    "path": "objects/oWallParent/oWallParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sScytheLaserGuided",
-    "path": "sprites/sScytheLaserGuided/sScytheLaserGuided.yy",
+    "name": "sSandBag1",
+    "path": "sprites/sSandBag1/sSandBag1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
