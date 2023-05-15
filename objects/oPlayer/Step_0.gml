@@ -60,6 +60,13 @@ global.WeaponEquipped = 3;
 instance_create_layer(x, y, "Weapon", oHailStorm); 
 }
 
+if keyboard_check_pressed(ord("5"))
+{
+global.WeaponEquipped = 5;
+
+instance_create_layer(x, y, "Weapon", oBow); 
+}
+
 if keyboard_check_pressed(ord("0"))
 {
 global.WeaponEquipped = 0;
