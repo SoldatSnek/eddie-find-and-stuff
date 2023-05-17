@@ -18,6 +18,8 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 	recoil = 2;
 	firingdelay = 1;
 	ammo = ammo -1; 
+		global.noiseLevel =+ 25; 
+		oPlayer.Quieting = 1; 
 	sprite_set_speed(sprite_index,60 , spritespeed_framespersecond)
 with (instance_create_layer(x , y , "Bullets", oHailStormBullet))
 	{

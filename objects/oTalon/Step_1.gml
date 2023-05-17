@@ -18,6 +18,8 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 	recoil = 2;
 	firingdelay = 5;
 	ammo = ammo -1; 
+	global.noiseLevel = 1000; 
+	oPlayer.Quieting = 1; 
 with (instance_create_layer(x, y, "Bullets", oTalonBullet))
 	{
 	oTalonBullet.spd = 75; 	

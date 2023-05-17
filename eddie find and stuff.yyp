@@ -156,6 +156,7 @@
     {"id":{"name":"oShrapnel","path":"objects/oShrapnel/oShrapnel.yy",},"order":47,},
     {"id":{"name":"sAttackStab","path":"sprites/sAttackStab/sAttackStab.yy",},"order":0,},
     {"id":{"name":"rIDK","path":"rooms/rIDK/rIDK.yy",},"order":6,},
+    {"id":{"name":"oWallDestructible","path":"objects/oWallDestructible/oWallDestructible.yy",},"order":0,},
     {"id":{"name":"sCatalina","path":"sprites/sCatalina/sCatalina.yy",},"order":18,},
     {"id":{"name":"sAttackSlash","path":"sprites/sAttackSlash/sAttackSlash.yy",},"order":0,},
     {"id":{"name":"sBow","path":"sprites/sBow/sBow.yy",},"order":0,},

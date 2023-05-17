@@ -31,6 +31,7 @@ draw_sprite(sHealthbarBackground,0, 600, 30);
 draw_sprite_stretched(sHealthbar, 0, 600, 30, (global.HP/100) * sprite_get_width(sHealthbarBackground), sprite_get_height(sHealthbarBackground));
 
 
+draw_text(200, 32, string(global.noiseLevel)); 
 
 
 cursor_sprite = sCursor; 

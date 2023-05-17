@@ -1,2 +1,2 @@
 
-//instance_destroy(oMGBullet);
+instance_destroy(self);

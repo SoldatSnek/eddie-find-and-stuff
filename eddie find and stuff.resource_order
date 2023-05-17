@@ -134,6 +134,7 @@
     {"name":"oShrapnel","order":47,"path":"objects/oShrapnel/oShrapnel.yy",},
     {"name":"sAttackStab","order":81,"path":"sprites/sAttackStab/sAttackStab.yy",},
     {"name":"rIDK","order":4,"path":"rooms/rIDK/rIDK.yy",},
+    {"name":"oWallDestructible","order":72,"path":"objects/oWallDestructible/oWallDestructible.yy",},
     {"name":"sCatalina","order":18,"path":"sprites/sCatalina/sCatalina.yy",},
     {"name":"sAttackSlash","order":83,"path":"sprites/sAttackSlash/sAttackSlash.yy",},
     {"name":"sBow","order":93,"path":"sprites/sBow/sBow.yy",},

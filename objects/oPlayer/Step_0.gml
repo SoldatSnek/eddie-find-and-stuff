@@ -14,7 +14,7 @@
 	 
  //}
 
-
+//keybinds
 if keyboard_check_pressed(ord("o"))
 {
 instance_create_layer(x, y, "instances_1", oSudoku); 
@@ -36,7 +36,7 @@ instance_create_layer(oPlayer.x, oPlayer.y - 163, "instances_1", oGrenade);
 
 
 
-
+//weapons keybinds
 
 
 if keyboard_check_pressed(ord("1"))
@@ -75,7 +75,7 @@ instance_create_layer(x, y, "Weapon", oKnife);
 }
 
 
-
+//movement things and whatever
 
 global.right = keyboard_check(ord("D")); 
 global.left = keyboard_check(ord("A")); 
@@ -136,7 +136,7 @@ playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
 
 	
 
-
+//collision
 
 if (place_meeting(x, y+global.vsp , oWallParent))	
 	
@@ -169,12 +169,19 @@ y = y + global.vsp;
 	
 	
 
+	global.noiseLevel = global.noiseLevel - Quieting;
+	Quieting = Quieting * 1.05; 
+	
+	if (global.noiseLevel <= 0)
+	{
+		Quieting = 1; 
+		global.noiseLevel = 0; 
+		
+	}
 	
 	
 	
-	
-	
-	
+	//ouch
 	
 	
 	
@@ -195,7 +202,7 @@ PlayerDeath()
 	
 	
 			
-			
+			//YOU SHOULD K*LL YOURSELF, NOW!
 			
 			
 			
@@ -206,7 +213,7 @@ PlayerDeath()
 	}
 	
 	
-	
+	//RIP
 	
 	if (global.HP <= 1)
 	
@@ -244,7 +251,7 @@ PlayerDeath()
 	
 	
 	
-	
+	//more keybinds and weapons stuff
 	
 	
 	if keyboard_check_pressed(ord("o"))

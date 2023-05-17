@@ -19,6 +19,8 @@ if global.WeaponEquipped = 5
 		{
 		recoil = 2;
 		firingdelay = 25;
+		global.noiseLevel =+2;
+		oPlayer.Quieting = 1;
 		with (instance_create_layer(x, y, "Bullets", oArrow))
 			{
 			speed = 25; 	

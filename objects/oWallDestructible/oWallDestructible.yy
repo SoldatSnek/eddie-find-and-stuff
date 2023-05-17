@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oInsurjent1Raptor",
+  "name": "oWallDestructible",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,7 +11,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWallParent",
+    "path": "objects/oWallParent/oWallParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,11 +29,14 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "sInsurjentCrouchingRaptor",
-    "path": "sprites/sInsurjentCrouchingRaptor/sInsurjentCrouchingRaptor.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sBackroomsCarpet",
+    "path": "sprites/sBackroomsCarpet/sBackroomsCarpet.yy",
+  },
   "visible": true,
 }
