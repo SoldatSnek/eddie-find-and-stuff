@@ -120,8 +120,20 @@ global.hsp = global.xDirection*global.walksp;
 
 
 
-var playerAngle;
-playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
+
+
+
+
+if (mouse_x > x)
+{
+	image_xscale = 1.75; 
+}
+else
+{
+	image_xscale = -1.75; 
+}
+
+
 
 
 

@@ -1,13 +1,18 @@
 
 
-
-/*if (place_meeting(x, y, oWallParent)) && (global.key_jump)
+if (mouse_x > x)
 {
-global.vsp = -10; 
-
-
+	image_xscale = 1; 
 }
-*/
+else
+{
+	image_xscale = -1; 
+}
+
+
+
+
+
 
 
 

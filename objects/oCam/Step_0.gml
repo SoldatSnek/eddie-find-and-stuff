@@ -1,2 +1,2 @@
-x = oHeadTest.x; 
-y = oHeadTest.y - 50;
+x = oHeadTest.x + 50; 
+y = oHeadTest.y;
