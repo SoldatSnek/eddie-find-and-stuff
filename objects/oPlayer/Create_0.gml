@@ -18,7 +18,7 @@ oHeadTest.walksp = 4;
 oHeadTest.xDirection = 0;
 oHeadTest.vsp = global.grv;
 oHeadTest.hsp = oHeadTest.walksp*oHeadTest.xDirection;
-
+recoil = 0; 
 omniDirection = 1; 
 
 

@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSoldatHead",
-    "path": "sprites/sSoldatHead/sSoldatHead.yy",
+    "name": "sSoldatHeadFacingLeft",
+    "path": "sprites/sSoldatHeadFacingLeft/sSoldatHeadFacingLeft.yy",
   },
   "spriteMaskId": null,
   "visible": true,

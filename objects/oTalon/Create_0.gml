@@ -3,7 +3,7 @@
 
 
 
-
+muzzleflash = irandom_range(1,5)
 firingdelay = 0; 
 recoil = 0; 
 ammo = 30; 

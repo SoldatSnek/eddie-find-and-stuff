@@ -1,14 +1,5 @@
 
 
-if (mouse_x > x)
-{
-	image_xscale = 1; 
-}
-else
-{
-	image_xscale = -1; 
-}
-
 
 
 
@@ -21,8 +12,8 @@ global.hsp = global.xDirection*global.walksp;
 
 
 
-var playerAngle;
-playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
+//var playerAngle;
+//playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
 
 y = oPlayer.y - 100; 
 x = oPlayer.x; 
@@ -113,43 +104,6 @@ PlayerDeath()
 			
 			
 			
-			
-			
-			if (place_meeting (x, y, oSudoku)) 
-	
-	{
-		global.HP = global.HP - 50
-	}
-	
-	
-	
-	
-	if (global.HP <= 1)
-	
-	{
-PlayerDeath() 
-	}
-	
-	
-	
-	
-	
-	
-	
-	if global.isInvincible
-	{
-	global.invTimer -= 1/room_speed
-	if global.invTimer <= 0 
-		{
-			global.isInvincible = false; 
-			global.invTimer = 3; 
-		}
-	
-	}
-	
-	
-
-	
 	
 	
 	
@@ -251,38 +205,7 @@ hsp = xDirection*walksp;
 
 
 
-var playerAngle;
-playerAngle = point_direction(mouse_x,mouse_y,oPlayer.x,oPlayer.y);
 
-/*if  (playerAngle > 226) and (playerAngle < 315) and (vk_control) {
-sprite_index = sPlayerCrouchUp
-}
-else {
-if  (playerAngle > 226) and (playerAngle < 315){
-sprite_index = sPlayerCrouchUp
-}
-}
-
-if (playerAngle > 135) and (playerAngle < 225){
-sprite_index = sPlayerRight;
-}
-if  (playerAngle > 46) and (playerAngle < 136) {
-sprite_index = sPlayerDown;
-}
-if (playerAngle > 0) and (playerAngle < 45){
-sprite_index = sPlayerLeft;
-}
-if (playerAngle > 316) and (playerAngle < 0){
-sprite_index = sPlayerLeft;
-}
-*/ 
-
-
-
-
-
-//check one pixel to the left or right of the player until we collide with oWall2
-	//! means not
 
 
 
@@ -313,44 +236,6 @@ y = y - vsp;
 
 
 
-
-/*
-if (place_meeting(x, y+vsp , oWallParent))	
-	
-{
-	while	(!place_meeting(x, y+sign(vsp) , oWall2))	
-	{
-		y = y + sign (vsp)
-	}
-	vsp = 0;
-}
-y = y + vsp; 
-*/
-	
-	
-	if (place_meeting(x, y+vsp , oWallBackrooms))	
-	
-{
-	while	(!place_meeting(x, y+sign(vsp) , oBackroomsCarpet2))	
-	{
-		y = y + sign (vsp)
-	}
-	vsp = 0;
-}
-
-
-	
-	if (place_meeting(x + hsp, y, oWallBackrooms))
-{
-	while (!place_meeting (x + sign (hsp), y, oBackroomsCarpet2)) 
-	{
-		x = x + sign(hsp); 
-	}
-	hsp = 0; 
-}
-
-
-	
 	
 	
 	
