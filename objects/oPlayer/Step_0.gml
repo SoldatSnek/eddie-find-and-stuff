@@ -74,6 +74,17 @@ global.WeaponEquipped = 0;
 instance_create_layer(x, y, "Weapon", oKnife); 
 }
 
+if keyboard_check_pressed(ord("H"))
+{
+global.WeaponEquipped = 10;
+
+instance_create_layer(x, y, "Weapon", oLaserDesignator); 
+}
+
+
+
+
+
 
 //movement things and whatever
 
