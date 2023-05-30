@@ -8,8 +8,8 @@ if global.WeaponEquipped = 10
 	y = oPlayer.y - 150; 
 
 //Firemode 1 code
-	if Firemode = 1 
-	{
+	    
+	
 		image_angle = point_direction (x,y,mouse_x,mouse_y); 
 		firingdelay = firingdelay - 1; 
 		recoil = max(0, recoil - 1); 
@@ -21,14 +21,15 @@ if global.WeaponEquipped = 10
 		firingdelay = 25;
 		global.noiseLevel =+2;
 		oPlayer.Quieting = 1;
+		instance_destroy(oLaser)
 		with (instance_create_layer(x, y, "Bullets", oLaser))
 			{
-			speed = 25; 	
+			speed = 5; 	
 			direction = other.image_angle + random_range (-3, 3); 
 			image_angle = direction; 
 			}
 		}
-	}
+	
 
 
 	x = x - lengthdir_x(recoil,image_angle); 

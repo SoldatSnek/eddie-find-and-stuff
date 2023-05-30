@@ -4,6 +4,6 @@
 
 CoordsDesignatedX = 10000000;
 CoordsDesignatedY = 10000000;
-AOATime = 0;
-CircleTime = 60;
-Fuel=0; 
+AOATime = 2;
+CircleTime = 10;
+Fuel=10000000; 

@@ -34,4 +34,10 @@ draw_sprite_stretched(sHealthbar, 0, 600, 30, (global.HP/100) * sprite_get_width
 draw_text(200, 32, string(global.noiseLevel)); 
 
 
+draw_text(275, 32, string(oAirSupport.AOATime)); 
+
+
+draw_text(350, 32, string(oAirSupport.CircleTime)); 
+
+
 cursor_sprite = sCursor; 
