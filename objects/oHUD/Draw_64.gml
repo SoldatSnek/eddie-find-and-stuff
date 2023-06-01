@@ -39,5 +39,9 @@ draw_text(275, 32, string(oAirSupport.AOATime));
 
 draw_text(350, 32, string(oAirSupport.CircleTime)); 
 
+draw_text(80, 16, string(oPlayer.blood)); 
+
+draw_text(0, 16, string(oPlayer.spo2)); 
+
 
 cursor_sprite = sCursor; 

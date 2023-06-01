@@ -38,6 +38,15 @@ global.isInvincible = false;
 
 global.invTimer = 3;
 
+//injuries
+blood = 5000//mililiters
+bleedingSpeed = 0; 
+bleeding = false; 
+coagulation = 0; 
+asphyxiation = false; 
+spo2 = 100; 
+
+
 //oPlayer.hp works similar to global 
 
 

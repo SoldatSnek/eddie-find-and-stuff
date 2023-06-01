@@ -4,6 +4,6 @@ function PlayerHurt()
 {
 
 		global.HP = global.HP - 1; 
-
+	
 }
 

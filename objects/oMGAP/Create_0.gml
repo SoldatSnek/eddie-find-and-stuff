@@ -3,7 +3,7 @@
 
 
 
-velocity = 100; 
+velocity = 25; 
 
 xDirection = (oPlayer.x - x); 
 yDirection = (oPlayer.y - y - (irandom_range(0, 160))); 

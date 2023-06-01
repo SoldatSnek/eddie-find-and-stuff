@@ -271,17 +271,44 @@ PlayerDeath()
 	
 
 	
-	
+//injuries
+	if bleeding = true
+{
+
+blood = blood - bleedingSpeed; 
+bleedingSpeed = bleedingSpeed - coagulation; 
+coagulation = coagulation + 0;
+}
+else
+{
+coagulation = 0; 
+}
+
+
+
+if asphyxiation = true
+{
+global.HP = global.HP - 2
+}
+
+
+if blood < 2000
+{
+spo2 = spo2 - (2000-blood);
+asphyxiation = true; 
+}
+
+
+if spo2 <= 100 && asphyxiation = false
+{	
+spo2 = spo2 + 5; 
+}
+
+
+
 	
 	
 	//more keybinds and weapons stuff
-	
-	
-	if keyboard_check_pressed(ord("o"))
-{
-instance_create_layer(x, y, "instances_1", oSudoku); 
-}
-
 
 
 if keyboard_check_pressed(vk_up)
