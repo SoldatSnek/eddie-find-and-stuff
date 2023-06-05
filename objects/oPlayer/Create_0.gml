@@ -30,7 +30,7 @@ Quieting = 1;
 global.WeaponEquipped = 1; 
 global.reloadspeed = 3; 
 
-global.HP = 1000; 
+global.HP = 100; 
 
 global.HeavyCalAmmo = 0 ; 
 

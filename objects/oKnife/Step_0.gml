@@ -8,11 +8,19 @@ if global.WeaponEquipped = 0
 }		
 
 
-if keyboard_check_pressed(ord("O")) && global.WeaponEquipped = 0
-{
-sprite_index = oKnifeSudoku; 
-oPlayer.bleeding = true; 
-oPlayer.bleedingSpeed = 100/room_speed; 
+	if keyboard_check_pressed(ord("O")) && global.WeaponEquipped = 0
+	{
+	draw_sprite(sLiveLeak, 0, 32, 16);
+	sprite_index = oKnifeSudoku; 
+	oPlayer.bleeding = true; 
+	oPlayer.bleedingSpeed = 250/room_speed; 
+	global.KnifeSudoku = 1;
+	
 }
 
+if !global.WeaponEquipped = 0
+{
+	instance_destroy(oKnife)
+	
+}
 
