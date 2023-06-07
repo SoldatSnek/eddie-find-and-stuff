@@ -7,6 +7,6 @@ if keyboard_check_pressed(vk_right)
 
 if keyboard_check_pressed(vk_enter) and !shaded
 {
-room_goto(r00m); 	
+room_goto(r00m6); 	
 	
 }
