@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+/*
 
 var len = string_length(text[textCurrent]);
 if (charCurrent < len)

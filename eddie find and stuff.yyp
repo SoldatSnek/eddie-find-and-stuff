@@ -230,11 +230,11 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"r00m6","path":"rooms/r00m6/r00m6.yy",},},
     {"roomId":{"name":"r00m","path":"rooms/r00m/r00m.yy",},},
     {"roomId":{"name":"rIDK","path":"rooms/rIDK/rIDK.yy",},},
     {"roomId":{"name":"rBackrooms","path":"rooms/rBackrooms/rBackrooms.yy",},},
     {"roomId":{"name":"Options","path":"rooms/Options/Options.yy",},},
-    {"roomId":{"name":"r00m6","path":"rooms/r00m6/r00m6.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

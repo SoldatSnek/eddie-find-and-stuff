@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+/*
 
 text[0] = "What ju, just happpened"; 
 text[1] = "Looks like the Helo went down"; 
